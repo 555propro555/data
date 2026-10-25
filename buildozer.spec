@@ -4,6 +4,12 @@ title = PC Bridge App
 package.name = pcbridge
 package.domain = org.pcbridge
 
+# ADD THIS
+source.dir = .
+
+# ADD THIS
+version = 1.0
+
 source.include_exts = py,png,jpg,kv,atlas
 
 requirements = python3,kivy,pyjnius
@@ -15,11 +21,3 @@ fullscreen = 0
 
 android.api = 33
 android.minapi = 21
-
-# Recommended
-android.archs = arm64-v8a, armeabi-v7a
-
-[buildozer]
-
-log_level = 2
-warn_on_root = 1
