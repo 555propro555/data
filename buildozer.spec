@@ -13,7 +13,7 @@ package.domain = org.pcbridge
 source.include_exts = py,png,jpg,kv,atlas
 
 # (list) Application requirements
-requirements = python3,kivy,jnius
+requirements = python3,kivy,pyjnius
 
 # (list) Permissions
 # Essential for your app's Bluetooth, SMS, and Call features
